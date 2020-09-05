@@ -57,19 +57,35 @@ namespace Logger
                 }
             }
         }
-        public static void Info(string text)
+        public static void InfoLn(string text)
         {
             onWrite?.Invoke($"Info [{DateTime.Now}] : {text}{Environment.NewLine}", Color.White);
         }
+        public static void Info(string text)
+        {
+            onWrite?.Invoke($"Info [{DateTime.Now}] : {text} ", Color.White);
+        }
         public static void Success(string text)
+        {
+            onWrite?.Invoke($"Info [{DateTime.Now}] : {text}", Color.YellowGreen);
+        }
+        public static void SuccessLn(string text)
         {
             onWrite?.Invoke($"Info [{DateTime.Now}] : {text}{Environment.NewLine}", Color.YellowGreen);
         }
         public static void Error(string text)
         {
+            onWrite?.Invoke($"Error [{DateTime.Now}] : {text}", Color.Red);
+        }
+        public static void ErrorLn(string text)
+        {
             onWrite?.Invoke($"Error [{DateTime.Now}] : {text}{Environment.NewLine}", Color.Red);
         }
         public static void Warning(string text)
+        {
+            onWrite?.Invoke($"Warning [{DateTime.Now}] : {text}", Color.Orange);
+        }
+        public static void WarningLn(string text)
         {
             onWrite?.Invoke($"Warning [{DateTime.Now}] : {text}{Environment.NewLine}", Color.Orange);
         }
