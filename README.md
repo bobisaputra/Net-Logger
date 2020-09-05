@@ -1,6 +1,7 @@
 # Net-Logger
 Logger for .Net
 
+```C#
 //Methods
 log.Info(teks); // output without new line ,Font color white
 log.InfoLn(teks);  // output with new line,Font color white
@@ -10,7 +11,7 @@ log.WarningLn(teks);  // output with new line,Font color orange
 
 log.Error(teks); // output without new line ,Font color red
 log.ErrorLn(teks);  // output with new line,Font color red
-
+```
 Examples :
 
 ```C#
