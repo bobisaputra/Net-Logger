@@ -9,8 +9,8 @@ namespace Logger
     {
         static List<string> _cache = new List<string>();
         static List<Color> _color = new List<Color>();
-
-
+        private static  Color defaultColor = Color.White;
+      
         public static event _onWrite onWrite;
         public delegate void _onWrite(string text, Color color);
 
@@ -56,6 +56,15 @@ namespace Logger
                         break;
                 }
             }
+        }
+  
+        public static void Write(string text,Color ? color=null)
+        {
+            onWrite?.Invoke($"{text}", color ?? Color.White);
+        }
+        public static void WriteLn(string text, Color? color = null)
+        {
+            onWrite?.Invoke($"{text}{Environment.NewLine}", color ?? Color.White);
         }
         public static void InfoLn(string text)
         {
