@@ -3,6 +3,9 @@ Logger for .Net
 
 ```C#
 //Methods
+log.Write(teks,color); // original output without new line
+log.WriteLn(teks,color); // original output with new line
+
 log.Info(teks); // output without new line ,Font color white
 log.InfoLn(teks);  // output with new line,Font color white
 
