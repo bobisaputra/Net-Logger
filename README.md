@@ -16,7 +16,11 @@ public partial class Form1 : Form
         }
        private void Log_onWrite(string text,Color color)
         {
+            // write on RichTexBox
             log.WriteOnEditor(RichTexBox1, text, color);
+            
+            // Write On Textbox
+            log.WriteOnEditor(TexBox1, text, color);
         }   
       void showLog(){
             log.Info("hello");
