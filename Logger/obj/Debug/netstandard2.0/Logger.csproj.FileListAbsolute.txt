@@ -1,0 +1,9 @@
+F:\bobi\developer\c#\Logger\bin\Debug\netstandard2.0\Logger.deps.json
+F:\bobi\developer\c#\Logger\bin\Debug\netstandard2.0\Logger.dll
+F:\bobi\developer\c#\Logger\bin\Debug\netstandard2.0\Logger.pdb
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.csprojAssemblyReference.cache
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfoInputs.cache
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfo.cs
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.csproj.CoreCompileInputs.cache
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.dll
+F:\bobi\developer\c#\Logger\obj\Debug\netstandard2.0\Logger.pdb
