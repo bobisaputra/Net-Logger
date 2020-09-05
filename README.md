@@ -1,5 +1,5 @@
 # Net-Logger
-Logger .Net
+Logger for .Net
 
 Examples :
 
