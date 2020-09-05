@@ -76,11 +76,11 @@ namespace Logger
         }
         public static void Success(string text)
         {
-            onWrite?.Invoke($"Info [{DateTime.Now}] : {text}", Color.YellowGreen);
+            onWrite?.Invoke($"Success [{DateTime.Now}] : {text}", Color.YellowGreen);
         }
         public static void SuccessLn(string text)
         {
-            onWrite?.Invoke($"Info [{DateTime.Now}] : {text}{Environment.NewLine}", Color.YellowGreen);
+            onWrite?.Invoke($"Success [{DateTime.Now}] : {text}{Environment.NewLine}", Color.YellowGreen);
         }
         public static void Error(string text)
         {
