@@ -3,6 +3,7 @@ Logger .Net
 
 Examples :
 
+```C#
 using Logger;
 
 namespace example{
@@ -29,3 +30,4 @@ public partial class Form1 : Form
 
   }
 }
+```
